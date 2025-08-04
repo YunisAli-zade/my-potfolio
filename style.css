@@ -5,9 +5,8 @@
 .style {
     background-color: olivedrab;
     margin-right: 1%;
-    margin-left: 1%;
     width: 32%;
-    height: fit-content;
+    height: 300px;
     border-color: darkgreen;
-    border-width: 3px;
+    border-width: 10px;
 }
