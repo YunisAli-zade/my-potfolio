@@ -1,4 +1,11 @@
-h1, h2, p {
+.head {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+}
+.style {
+    background-color: olivedrab;
+    margin-right: 1%;
+    margin-left: 1%;
+    width: 32%;
+    height: fit-content;
 }
