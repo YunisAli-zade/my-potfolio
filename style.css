@@ -8,4 +8,6 @@
     margin-left: 1%;
     width: 32%;
     height: fit-content;
+    border-color: darkgreen;
+    border-width: 3px;
 }
