@@ -1,33 +1,200 @@
-<!DOCTIPE html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>portfolio-Yunis Ali-zade</title>
-        <link href="styles.css" rel="stylesheet"/>
-    </head>
-    <body>
-        <header>
-            <h1 class="head">Wellcome to Yunis Ali-zade's portfolio</h1>
-            <nav class="links">
-                <a class="link1" href="#about">About</a>
-                <a class="link2" href="#projects">Projects</a>
-                <a class="link3" href="#contact">Contact</a>
-            </nav>
-        </header>
-        <main>
-            <section id="about">
-                <h2 class="head">About</h2>
-                <p>Hi, I'm Yunis, I study in <abbr title="National Aviation Academy">NAA</abbr> as a web development student.</p>
-                <p>I'm currently learning HTML, CSS, and JavaScript to build responsive websites.</p>
-                <p>My goal is to become a full-stack web developer and work on real-world projects.</p>
-            </section>
-            <section id="projects">
-                <h2 class="head">Projects</h2>
-            </section>
-        </main>
-        <footer id="contact">
-            <h2 class="head">Contact</h2>
-            <p>Github: <a href="https://github.com/YunisAli-zade">YunisAli-zade</a></p>
-        </footer>
-    </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Yunis Ali-zade | Embedded Systems & Microprocessors</title>
+
+  <meta name="description" content="Yunis Ali-zade portfolio website focused on embedded systems, microprocessors, Arduino, ESP32, and software engineering." /> 
+  <meta name="keywords" content="Yunis Ali-zade, embedded systems, ESP32, Arduino, microprocessors, portfolio, software engineer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header class="nav">
+
+    <div class="logo">
+      Yunis Ali-zade
+    </div>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+
+      <button id="themeToggle">
+        🌙
+      </button>
+    </nav>
+
+  </header>
+
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <div class="hero-badge">
+        Embedded Systems • Microprocessors
+      </div>
+
+      <h1>
+        Building Hardware & Software Together
+      </h1>
+
+      <p>
+        I work with microprocessors, embedded systems, and low-level programming.
+        My focus is on understanding how hardware and software interact to build
+        efficient and reliable systems.
+      </p>
+
+      <div class="cta">
+
+        <a href="#skills" class="btn">
+          Explore Skills
+        </a>
+
+        <a
+          href="https://github.com/YunisAli-zade"
+          target="_blank"
+          class="btn ghost"
+        >
+          GitHub
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="about" class="container">
+
+    <h2>About Me</h2>
+
+    <p>
+      I'm Yunis, a software engineering student interested in embedded systems,
+      microprocessors, and low-level software development.
+
+      Currently, I spend most of my time learning how hardware communicates with
+      software through sensors, microcontrollers, and system-level programming.
+
+      I enjoy building projects with Arduino, ESP32, and Python while improving
+      my understanding of algorithms and computer architecture.
+    </p>
+
+    <ul class="tags">
+
+      <li>C</li>
+      <li>Python</li>
+      <li>Arduino</li>
+      <li>ESP32</li>
+      <li>Embedded Systems</li>
+      <li>Microprocessors</li>
+      <li>Sensors</li>
+      <li>Git</li>
+      <li>Algorithms</li>
+      <li>Problem Solving</li>
+
+    </ul>
+
+  </section>
+
+  <section id="skills" class="container">
+
+    <h2>Skills & Interests</h2>
+
+    <div class="skills-grid">
+
+      <div class="skill-box">
+
+        <h3>Embedded Systems</h3>
+
+        <p>
+          Learning microcontrollers, hardware communication, and low-level logic.
+        </p>
+
+      </div>
+
+      <div class="skill-box">
+
+        <h3>Microprocessors</h3>
+
+        <p>
+          Understanding processor architecture and system interaction.
+        </p>
+
+      </div>
+
+      <div class="skill-box">
+
+        <h3>Programming</h3>
+
+        <p>
+          Writing clean code in Python and C for software and hardware projects.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="contact" class="container">
+
+    <h2>Contact</h2>
+
+    <p>
+      Feel free to contact me:
+    </p>
+
+    <div class="socials">
+
+      <a href="mailto:yuniselizade2007@gmail.com">
+        Email
+      </a>
+
+      <a
+        href="https://github.com/YunisAli-zade"
+        target="_blank"
+      >
+        GitHub
+      </a>
+
+      <a
+        href="https://codeforces.com/profile/Yunis_Ali_zade"
+        target="_blank"
+      >
+        Codeforces
+      </a>
+
+    </div>
+
+  </section>
+
+  <footer class="footer">
+
+    <p>
+      © 2026 Yunis Ali-zade
+    </p>
+
+    <span>
+      Built with HTML, CSS & JavaScript
+    </span>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
 </html>
